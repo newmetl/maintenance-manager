@@ -1,4 +1,4 @@
-server '167.99.246.171', user: 'rails', roles: %w(web app db)
+server '159.89.21.129', user: 'rails', roles: %w(web app db)
 set :branch, 'production'
 set :application, 'maintenance_manager'
 set :deploy_to, '/home/rails/production/'
