@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: MaintenanceManager_production
-  username: railsapp
+  username: postgres
   password: <%= ENV['MAINTENANCE_MANAGER_DATABASE_PASSWORD'] %>
