@@ -6,8 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-require 'dotenv'
-Dotenv.load('/home/rails/production.env') if Rails.env.production?
+# require 'dotenv'
+# Dotenv.load('/home/rails/production.env') if Rails.env.production?
 
 module MaintenanceManager
   class Application < Rails::Application
