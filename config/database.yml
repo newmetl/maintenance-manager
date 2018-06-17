@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: MaintenanceManager_production
-  host:
-  username: postgres
+  host: localhost
+  username: railsapp
+  password: XEVRkvWRGAq/}o8rMQfRR)T7
