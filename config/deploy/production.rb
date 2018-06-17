@@ -5,9 +5,9 @@ set :deploy_to, '/home/rails/production/'
 set :rails_env, :production
 # Default value for keep_releases is 5
 set :keep_releases, 5
-set :default_env, {
-  'PATH' => 'PATH=$PATH:/home/rails/.rvm/gems/ruby-2.4.1/bin'
-}
+# set :default_env, {
+#   'PATH' => 'PATH=$PATH:/home/rails/.rvm/gems/ruby-2.4.1/bin'
+# }
 
 # namespace :deploy do
 #   desc 'Restart application'
