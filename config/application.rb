@@ -2,12 +2,12 @@ require_relative 'boot'
 
 require 'rails/all'
 
-require 'dotenv'
-Dotenv.load('/home/rails/production.env') if Rails.env.production?
-
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+
+require 'dotenv'
+Dotenv.load('/home/rails/production.env') if Rails.env.production?
 
 module MaintenanceManager
   class Application < Rails::Application
