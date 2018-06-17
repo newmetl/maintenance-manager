@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: MaintenanceManager_production
+  host: localhost
   username: railsapp
   password: <%= ENV['MAINTENANCE_MANAGER_DATABASE_PASSWORD'] %>
